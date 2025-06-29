@@ -1,8 +1,10 @@
 import React from "react";
+import Button from "../common/Button";
+import { MdOutlineArrowForward } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100 shadow-sm">
+    <div className="navbar bg-base-100 shadow-sm ">
       <div className="navbar-start">
         <div className="dropdown">
           <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -43,7 +45,7 @@ const Navbar = () => {
             <li><a>Portfolio</a></li>
             <li><a>Blog</a></li>
         </ul>
-        <a className="btn">Button</a>
+        <Button title="Start Project" icon={<MdOutlineArrowForward />}></Button>
       </div>
     </div>
   );
