@@ -1,16 +1,19 @@
 import React from 'react';
 import { IoMdArrowBack, IoMdArrowForward } from 'react-icons/io';
 import { FaReact } from 'react-icons/fa';
+import Button1 from '../../common/Button1';
 
 const Skills = () => {
   return (
     <div className='bg-black text-white min-h-[500px]'>
       <div className='w-11/12 mx-auto pt-20 pb-20'>
-        {/* Top Section */}
+       <div className='pb-4'>
+        <Button1 isDark={true} title="Why Choose me"></Button1>
+       </div>
         <div className='flex flex-col md:flex-row justify-between mb-20'>
-          <div className='mb-10 md:mb-0'>
-            <h1 className='text-5xl md:text-6xl font-bold mb-2'>My Extensive</h1>
-            <h1 className='text-5xl md:text-6xl font-bold'>List of Skills</h1>
+          <div className='mb-10 md:mb-0 text-center md:text-start'>
+            <h1 className='text-4xl md:text-6xl font-bold mb-2'>My Extensive</h1>
+            <h1 className='text-4xl md:text-6xl font-bold'>List of Skills</h1>
           </div>
 
           <div className='max-w-xl'>
@@ -32,7 +35,7 @@ const Skills = () => {
 
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8'>
    
-          <div className='border border-gray-800 rounded-lg p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
+          <div className='border border-gray-800 rounded-lg p-10 md:p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
             <div className='flex space-x-4 mb-6'>
               <FaReact size={60} />
             </div>
@@ -42,7 +45,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className='border border-gray-800 rounded-lg p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
+          <div className='border border-gray-800 rounded-lg p-10 md:p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
             <div className='flex space-x-4 mb-6'>
               <FaReact size={60} />
             </div>
@@ -52,7 +55,7 @@ const Skills = () => {
             </p>
           </div>
 
-          <div className='border border-gray-800 rounded-lg p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
+          <div className='border border-gray-800 rounded-lg p-10 md:p-16 bg-black hover:bg-gray-900 transition-all duration-300 transform hover:rotate-[3deg] hover:-translate-y-1 hover:shadow-lg'>
             <div className='flex space-x-4 mb-6'>
               <FaReact size={60} />
             </div>
