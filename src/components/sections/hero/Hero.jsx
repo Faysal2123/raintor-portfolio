@@ -15,7 +15,7 @@ const Hero = () => {
       className=" bg-cover bg-center flex md:min-h-[700px] "
       style={{ backgroundImage: `url(${backgroundImage})` }}
     >
-      <div className="w-11/12 mx-auto">
+      <div className="w-10/12 mx-auto mt-20">
         <h1 className="text-3xl md:text-7xl text-black mb-4 md:pt-20 pt-10 pb-5 md:pb-10 font-face">
           <span className="text-black">Trusted</span>{" "}
           <span className="bg-black text-white ">Partner</span> for

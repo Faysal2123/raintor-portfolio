@@ -6,7 +6,7 @@ import Button1 from '../../common/Button1';
 const Skills = () => {
   return (
     <div className='bg-black text-white min-h-[500px]'>
-      <div className='w-11/12 mx-auto pt-20 pb-20'>
+      <div className='w-10/12 mx-auto pt-20 pb-20'>
        <div className='pb-4'>
         <Button1 isDark={true} title="Why Choose me"></Button1>
        </div>
