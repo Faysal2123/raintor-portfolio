@@ -1,20 +1,20 @@
 import React from "react";
-import { DarkModeSwitch } from "react-toggle-dark-mode";
 import { useTheme } from "../context/ThemeContext";
+import { BsSun, BsMoon } from "react-icons/bs";
 
 const ThemeToggle = () => {
   const { isDarkMode, toggleDarkMode } = useTheme();
 
   return (
-    <div className="flex justify-center items-center">
-      <DarkModeSwitch
-        checked={isDarkMode}
-        onChange={toggleDarkMode}
-        size={40}
-        sunColor="#FFC107"  
-        moonColor="#4B5563" 
-      />
-    </div>
+    <button
+      onClick={toggleDarkMode}
+      className="flex items-center justify-center w-10 h-10 rounded-full 
+        bg-gray-200 dark:bg-gray-700 text-yellow-500 dark:text-gray-200 
+        transition-colors duration-300"
+      aria-label="Toggle Dark Mode"
+    >
+      {isDarkMode ? <BsSun size={24} /> : <BsMoon size={24} />}
+    </button>
   );
 };
 
