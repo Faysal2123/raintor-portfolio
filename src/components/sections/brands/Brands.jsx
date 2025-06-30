@@ -8,8 +8,13 @@ import BrandButton from "../../common/BrandButton";
 
 const Brands = () => {
   return (
-    <div className="w-11/12 max-w-7xl mx-auto pt-20 pb-20">
-      <div>
+    <div
+      className=" pt-20 pb-20"
+      style={{
+        background: "linear-gradient(170deg, #ffffff 40%, #CCFF02 80%, #59FFCD00)",
+      }}
+    >
+      <div className="w-10/12  mx-auto">
         <Button1 title="Contact" />
 
         <div className="flex flex-col md:flex-row items-center md:items-start justify-between gap-16 md:gap-20">

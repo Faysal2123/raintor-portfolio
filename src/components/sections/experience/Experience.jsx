@@ -4,23 +4,32 @@ import Button1 from "../../common/Button1";
 
 const Experience = () => {
   return (
-    <div className="w-11/12 mx-auto">
-      <div className="flex justify-end relative pt-24 mx-auto lg:w-[720px]">
+    <div
+     
+      style={{
+        background: "linear-gradient(170deg, #CCFF02 10%, #59FFCD00 40%)",
+      }}
+    >
+     <div  className="w-10/12 mx-auto">
+       <div className="flex justify-end relative pt-24 mx-auto lg:w-[720px]">
         <Button1 title="About" isDark={false} />
       </div>
+
       <h1 className="text-3xl md:text-7xl text-black mb-4 pt-10 pb-5 md:pb-10 font-face text-center">
         <span className="text-black">I’ve been</span>{" "}
-        <span className="bg-black text-white">Developing</span> for
+        <span className="bg-black text-white rounded-md px-2">Developing</span> for
         <br />
         <div className="mt-6">
           <span className="text-black">Websites since</span>{" "}
-          <span className="bg-black text-white rounded-md">2013</span>
+          <span className="bg-black text-white rounded-md px-2">2013</span>
         </div>
       </h1>
+
       <p className="text-black text-center font-face mx-auto lg:w-[720px]">
         We start every new client interaction with an in-depth discovery call
         where we get to know each other and recommend the best course of action.
       </p>
+
       <div className="pt-20 flex flex-col md:flex-row gap-10 mx-auto px-4 lg:w-[1600px]">
         <div className="text-center md:text-left">
           <h1 className="text-4xl font-face font-semibold leading-tight w-[250px]">
@@ -44,11 +53,12 @@ const Experience = () => {
           <div className="border rounded-full -rotate-6 flex items-center justify-center h-20 px-6 hover:bg-black hover:text-white font-bold text-base transition-all duration-300 shadow-md">
             /thoughtworks
           </div>
-          <div className="border rounded-full flex items-center justify-center h-16 px-20  hover:bg-black hover:text-white font-bold text-base transition-all duration-300 shadow-md mr-20">
+          <div className="border rounded-full flex items-center justify-center h-16 px-20 hover:bg-black hover:text-white font-bold text-base transition-all duration-300 shadow-md mr-20">
             AUTODESK
           </div>
         </div>
       </div>
+     </div>
     </div>
   );
 };
