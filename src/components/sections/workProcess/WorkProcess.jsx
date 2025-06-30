@@ -27,7 +27,7 @@ const cards = [
 
 const WorkProcess = () => {
   return (
-    <div className="bg-[#141414] mt-20">
+    <div className="bg-[#141414] ">
       <div className="w-11/12 md:w-9/12 mx-auto text-white py-16 px-4">
         {/* Section Header */}
         <div className="text-center mb-12 flex flex-col lg:flex-row lg:items-center lg:justify-between gap-6">
